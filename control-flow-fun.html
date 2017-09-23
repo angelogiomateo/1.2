@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Control Flow 1</title>
+</head>
+<body>
+	<script>
+		var dog = "Scout";
+		var trained = false;
+		var age = 23;
+		var n = 4;
+
+		if (dog == "JJ" && trained == true) {
+			console.log(`Good dog, ${dog}!`);
+		} else {
+			console.log(`Bad dog, ${dog}`);
+		}
+
+		if (age === 23) {
+			console.log(age);
+		}
+
+		var name = "";
+
+		if (!!name) {
+			console.log(`This is evaluated to true! ${name}`);
+		}
+
+		if (n > 10){
+			console.log("Big number!");
+		} else if (n < 3) {
+			console.log("Small number!");
+		} else {
+			console.log("Medium number!");
+		}
+
+
+	</script>
+</body>
+</html>
